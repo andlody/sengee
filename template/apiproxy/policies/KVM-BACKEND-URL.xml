@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations continueOnError="false" enabled="true" name="KVM-BACKEND-URL" mapIdentifier="api-backend-url">
+  <DisplayName>KVM-BACKEND-URL</DisplayName>
+  <ExpiryTimeInSecs>1</ExpiryTimeInSecs>
+  <Scope>environment</Scope>
+  <Get assignTo="api-backend-url" index="1">
+    <Key>
+      <Parameter>host</Parameter>
+    </Key>
+  </Get>
+</KeyValueMapOperations>

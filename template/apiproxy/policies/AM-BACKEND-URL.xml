@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage name="AM-BACKEND-URL">
+  <AssignVariable>
+    <Name>target.url</Name>
+    <Template>{api-backend-url}{{backend-basepath}}{proxy.pathsuffix}?{request.querystring}</Template>
+  </AssignVariable>
+</AssignMessage>
